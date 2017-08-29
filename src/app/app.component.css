@@ -1,0 +1,213 @@
+#about_box{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 75px;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0,0,0,.7);
+  border-radius: 5px;
+}
+
+#pushdown_box{
+  height: 150px;
+}
+
+#bottom_box{
+  height: 50px;
+}
+.title_header{
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+.title_header h1{
+  margin-top: 15px;
+  color: #F2422D;
+}
+
+#top-background {
+  z-index: 1;
+  background-image: url('/../../assets/ClemsonBackground3.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position-y: 30px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#about_header{
+  padding-top: 65px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #f2422d;
+}
+
+#about-paragraph{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.backgound-image{
+  width: 100%;
+  z-index: 1;
+}
+.circular--square{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 150px;
+  width: 125px;
+  border-radius: 50%;
+}
+#banner{
+  position: fixed;
+  top:0;
+  background: #fbfdfd;
+  height: 70px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 3px 15px rgba(0,0,0,.9);
+}
+
+#footer_box{
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0 10px #888 ;
+  background: #fbfdfd;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #3c3f41;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #f2422d;
+}
+
+#experience_box{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom:0;
+  padding-bottom: 10px;
+  width: 75%;
+  max-width: 700px;
+  height: auto;
+  background-color: #caebf2;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,.9);
+}
+
+#education_box ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#education_box{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  width: 75%;
+  max-width: 700px;
+  height: auto;
+  background-color: #b5b5b5;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,.9);
+}
+#contact_box{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  width: 75%;
+  max-width: 700px;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,.9);
+}
+
+#contact_box table{
+  margin-left: 250px;
+}
+
+#contact_box table th{
+  color: #F2422D;
+}
+
+#contact_header{
+  color: #f2422d;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+#education_header{
+  color: #f2422d;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+#experience_header{
+  color: #f2422d;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+#print_btn{
+  color: #f2422d;
+  background: #fff;
+  border: 1px solid #f2422d;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 6px 270px;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 120px;
+}
+
+#print_btn:hover, #print_btn:active {
+  color:#fff;
+  background:#f2422d;
+}
+span{
+  vertical-align: 2px;
+}
+.fa-angle-double-right{
+  color: #f2422d;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.fa-angle-right{
+  color: #f2422d;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+#social_icons{
+  text-align: center;
+  font-size: 30px;
+}
+#social_icons i{
+  color: #3c3f41;
+}
+#design_statement{
+  text-align: center;
+  color: #6d7072;
+  font-size: 10pt;
+}
